@@ -1,7 +1,12 @@
-import elements
+# relativa
+from ..elements import create_air
+# absoluta
+from alchemy.potions import strength_potion
+from elements import create_fire
+
 
 def lead_to_gold() -> str:
-    return(
+    return (
         "Recipe transmuting Lead to Gold: brew "
-        f"{}"
+        f"'{create_air}' and '{strength_potion}' mixed with '{create_fire}'"
     )
