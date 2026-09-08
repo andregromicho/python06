@@ -1,7 +1,8 @@
 # relativa
 from ..potions import strength_potion
 # absoluta
-from alchemy.potions import create_air, create_fire
+from alchemy.elements import create_air
+from elements import create_fire
 
 
 def lead_to_gold() -> str:
