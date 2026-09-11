@@ -4,7 +4,7 @@ from elements import create_fire, create_water
 
 def healing_potion() -> str:
     return (
-        "Healing potion brewed with"
+        "Healing potion brewed with "
         f"'{create_earth()}' and '{create_air()}'"
     )
 
