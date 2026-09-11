@@ -5,6 +5,6 @@ def validate_ingredients(ingredients: str) -> str:
     ingredients_lower = ingredients.lower()
 
     for item in allowed:
-        if item.lower() in ingredients_lower:
+        if item in ingredients_lower:
             return f"{ingredients} - VALID"
     return f"{ingredients} - INVALID"

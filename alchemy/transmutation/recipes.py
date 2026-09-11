@@ -1,6 +1,4 @@
-# relativa
 from ..potions import strength_potion
-# absoluta
 from alchemy.elements import create_air
 from elements import create_fire
 
